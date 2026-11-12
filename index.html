@@ -12,16 +12,16 @@
     <header class="site">
       <div class="kicker">Amaury Dreux · prépa Diagonale des Fous 2027</div>
       <h1>Traces GPX</h1>
-      <p class="lead">Les parcours trail que j'ai vraiment courus, au départ et à l'arrivée d'une gare. Tu prends le train depuis Paris, tu cours, tu rentres en train.</p>
+      <p class="lead">Des parcours trail autour de Paris, accessibles en train. Ceux que j'ai courus portent le badge vert ; les autres sont sur ma liste à tester.</p>
       <ul class="rules">
-        <li><b>Testé par moi</b>Chaque trace a été courue, la date est indiquée.</li>
-        <li><b>De gare à gare</b>Départ et arrivée dans une gare desservie depuis Paris.</li>
-        <li><b>Les tracés de course sont crédités</b>Quand un parcours reprend celui d'une course, l'organisation est citée.</li>
+        <li><b>Badge vert = testé</b>Les parcours que j'ai courus portent le badge ✓ Testé, avec la date.</li>
+        <li><b>Accès en train</b>Gare et ligne indiquées, de gare à gare quand c'est possible. Sinon, c'est précisé.</li>
+        <li><b>Tracés crédités</b>Course, parc ou fédération : celui qui a tracé le parcours est toujours cité.</li>
       </ul>
-      <p class="meta" id="count"></p>
+      <div class="filters" id="filters" role="group" aria-label="Filtrer les parcours"></div>
     </header>
 
-    <main id="list" class="list" aria-live="polite"></main>
+    <main id="list" aria-live="polite" style="margin-bottom:56px"></main>
 
     <footer class="site">
       Traces données à titre indicatif : vérifie l'état des chemins, les accès et les périodes de chasse avant de partir, et respecte les propriétés privées.
