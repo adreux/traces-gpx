@@ -8,8 +8,16 @@
     "teste_le": "2026-11-11",
     "resume": "Montée depuis la Seine vers les Buttes du Parisis, sentiers en forêt et allées en sous-bois, vue sur Paris, puis descente vers Sannois. Le cœur du parcours suit le tracé de course du Trail des Châtaignes, relié à pied aux deux gares.",
     "acces": {
-      "depart": { "gare": "La Frette–Montigny", "ligne": "Transilien J", "paris": "depuis Paris Saint-Lazare" },
-      "arrivee": { "gare": "Sannois", "ligne": "Transilien J", "paris": "vers Paris Saint-Lazare" }
+      "depart": {
+        "gare": "La Frette–Montigny",
+        "ligne": "Transilien J",
+        "paris": "depuis Paris Saint-Lazare"
+      },
+      "arrivee": {
+        "gare": "Sannois",
+        "ligne": "Transilien J",
+        "paris": "vers Paris Saint-Lazare"
+      }
     },
     "distance_km": 20.7,
     "dplus_m": 610,
@@ -24,6 +32,895 @@
     "notes": [
       "Testé le 11 novembre 2026 sur les 16 premiers kilomètres tels quels. Sur la fin, j'ai rejoint Sannois par un chemin plus direct : les 4 derniers kilomètres suivent le tracé de course jusqu'au km 21, puis les rues jusqu'à la gare.",
       "Dénivelé mesuré à la montre le jour du test (Strava). L'altitude n'est pas renseignée sur la portion non courue."
+    ]
+  },
+  {
+    "id": "sentier-des-3-vallees-pr-7",
+    "titre": "Sentier des 3 Vallées (PR 7)",
+    "zone": "Coteaux du 92 : Issy, Meudon, Clamart, Verrières",
+    "type": "Aller simple",
+    "teste": false,
+    "distance_km": 28.7,
+    "dplus_m": 480,
+    "acces": {
+      "texte": "Départ métro 12 Mairie d'Issy, arrivée RER B/C Massy-Verrières"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "Comité de randonnée des Hauts-de-Seine",
+      "lien": "https://www.rando92.fr/randonner/itinéraires",
+      "osm": "https://www.openstreetmap.org/relation/10098090"
+    },
+    "gpx": "gpx/sentier-des-3-vallees-pr-7.gpx",
+    "notes": [
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "l-abbaye-aux-bois",
+    "titre": "L'Abbaye aux bois",
+    "zone": "Coteaux du 92 : Issy, Meudon, Clamart, Verrières",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 11.8,
+    "dplus_m": 225,
+    "acces": {
+      "texte": "Transilien V Igny (100 m du tracé) ou Bièvres (400 m)"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": null,
+      "lien": null,
+      "osm": "https://www.openstreetmap.org/relation/14214910"
+    },
+    "gpx": "gpx/l-abbaye-aux-bois.gpx",
+    "notes": [
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "foret-de-verrieres",
+    "titre": "Forêt de Verrières",
+    "zone": "Coteaux du 92 : Issy, Meudon, Clamart, Verrières",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 10.6,
+    "dplus_m": 134,
+    "acces": {
+      "texte": "Transilien V Igny (600 m du tracé)"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": null,
+      "lien": null,
+      "osm": "https://www.openstreetmap.org/relation/14978355"
+    },
+    "gpx": "gpx/foret-de-verrieres.gpx",
+    "notes": [
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "grp-ceinture-verte-etape-12-groslay-taverny",
+    "titre": "GRP Ceinture Verte, étape 12 (Groslay → Taverny)",
+    "zone": "Forêt de Montmorency",
+    "type": "Aller simple",
+    "teste": false,
+    "distance_km": 14.5,
+    "dplus_m": 349,
+    "acces": {
+      "texte": "Transilien H Groslay (départ à 100 m), arrivée à ≈ 2,5 km de la gare de Taverny"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "GR de Pays Ceinture verte d'Île-de-France (balisage FFRandonnée)",
+      "lien": null,
+      "osm": "https://www.openstreetmap.org/relation/17381579"
+    },
+    "gpx": "gpx/grp-ceinture-verte-etape-12-groslay-taverny.gpx",
+    "notes": [
+      "Aller simple, D− 226 m.",
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "vm1-groslay-enghien-les-bains",
+    "titre": "VM1 Groslay → Enghien-les-Bains",
+    "zone": "Forêt de Montmorency",
+    "type": "Aller simple",
+    "teste": false,
+    "distance_km": 11.5,
+    "dplus_m": 210,
+    "acces": {
+      "texte": "Transilien H Groslay → Enghien-les-Bains (200 m)"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "topoguide de randonnée (Calaméo)",
+      "lien": "https://www.calameo.com/read/001720724b85c3172c3fa",
+      "osm": "https://www.openstreetmap.org/relation/16805947"
+    },
+    "gpx": "gpx/vm1-groslay-enghien-les-bains.gpx",
+    "notes": [
+      "Aller simple.",
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "sentier-de-l-aqueduc-buc",
+    "titre": "Sentier de l'aqueduc (Buc)",
+    "zone": "Bois de Versailles : Jouy-en-Josas et Buc",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 13.9,
+    "dplus_m": 251,
+    "acces": {
+      "texte": "Transilien V Jouy-en-Josas (300 m)"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "FFRandonnée Yvelines",
+      "lien": "https://yvelines.ffrandonnee.fr/sentier-de-laqueduc/",
+      "osm": "https://www.openstreetmap.org/relation/18965803"
+    },
+    "gpx": "gpx/sentier-de-l-aqueduc-buc.gpx",
+    "notes": [
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "sentier-des-cotes-de-montbron",
+    "titre": "Sentier des côtes de Montbron",
+    "zone": "Bois de Versailles : Jouy-en-Josas et Buc",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 10.9,
+    "dplus_m": 166,
+    "acces": {
+      "texte": "Transilien V Petit-Jouy-les-Loges (100 m)"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "FFRandonnée Yvelines",
+      "lien": "https://yvelines.ffrandonnee.fr/sentier-des-cotes-de-montbron/",
+      "osm": "https://www.openstreetmap.org/relation/20160710"
+    },
+    "gpx": "gpx/sentier-des-cotes-de-montbron.gpx",
+    "notes": [
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "grp-ceinture-verte-etape-19-saint-nom-vaucresson",
+    "titre": "GRP Ceinture Verte, étape 19 (Saint-Nom → Vaucresson)",
+    "zone": "Forêt de Marly",
+    "type": "Aller simple",
+    "teste": false,
+    "distance_km": 11.0,
+    "dplus_m": 300,
+    "acces": {
+      "texte": "Transilien L Saint-Nom-la-Bretèche (100 m), arrivée à 500 m de la gare de Vaucresson"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "GR de Pays Ceinture verte d'Île-de-France (balisage FFRandonnée)",
+      "lien": null,
+      "osm": "https://www.openstreetmap.org/relation/17381586"
+    },
+    "gpx": "gpx/grp-ceinture-verte-etape-19-saint-nom-vaucresson.gpx",
+    "notes": [
+      "Aller simple, D− 274 m.",
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "station-de-trail-6-meridon-chevreuse",
+    "titre": "Station de Trail #6 Méridon Chevreuse",
+    "zone": "Vallée de l'Yvette : Bures et Gif (RER B)",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 32.0,
+    "dplus_m": 651,
+    "acces": {
+      "texte": "RER B Bures-sur-Yvette (400 m)"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "Station de Trail de Bures-sur-Yvette (Onpiste)",
+      "lien": "https://www.onpiste.com/explorer/routes/meridon-chevreuse-1636",
+      "osm": "https://www.openstreetmap.org/relation/20290377"
+    },
+    "gpx": "gpx/station-de-trail-6-meridon-chevreuse.gpx",
+    "notes": [
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "station-de-trail-7-merantaise",
+    "titre": "Station de Trail #7 Mérantaise",
+    "zone": "Vallée de l'Yvette : Bures et Gif (RER B)",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 26.9,
+    "dplus_m": 553,
+    "acces": {
+      "texte": "RER B Bures-sur-Yvette (400 m)"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "Station de Trail de Bures-sur-Yvette (Onpiste)",
+      "lien": "https://www.onpiste.com/explorer/routes/merantaise-1640",
+      "osm": "https://www.openstreetmap.org/relation/14447526"
+    },
+    "gpx": "gpx/station-de-trail-7-merantaise.gpx",
+    "notes": [
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "station-de-trail-4-aigrefoin",
+    "titre": "Station de Trail #4 Aigrefoin",
+    "zone": "Vallée de l'Yvette : Bures et Gif (RER B)",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 16.6,
+    "dplus_m": 331,
+    "acces": {
+      "texte": "RER B Bures-sur-Yvette (400 m)"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "Station de Trail de Bures-sur-Yvette (Onpiste)",
+      "lien": "https://www.onpiste.com/explorer/routes/aigrefoin-1648",
+      "osm": "https://www.openstreetmap.org/relation/20292712"
+    },
+    "gpx": "gpx/station-de-trail-4-aigrefoin.gpx",
+    "notes": [
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "entre-plateau-et-vallee-a-gif",
+    "titre": "Entre Plateau et Vallée à Gif",
+    "zone": "Vallée de l'Yvette : Bures et Gif (RER B)",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 10.4,
+    "dplus_m": 122,
+    "acces": {
+      "texte": "RER B Gif-sur-Yvette (au départ)"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "Destination Paris-Saclay",
+      "lien": "https://www.destination-paris-saclay.com/fr/fiche/equipement/entre-plateau-et-vallee-a-gif-sur-yvette-gif-sur-yvette_TFO5449799/",
+      "osm": "https://www.openstreetmap.org/relation/13550113"
+    },
+    "gpx": "gpx/entre-plateau-et-vallee-a-gif.gpx",
+    "notes": [
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "sentier-denecourt-colinet-12-est",
+    "titre": "Sentier Denecourt-Colinet 12 Est",
+    "zone": "Fontainebleau côté gares (Transilien R)",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 8.1,
+    "dplus_m": 162,
+    "acces": {
+      "texte": "Transilien R Bois-le-Roi (≈ 2 km)"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "sentiers bleus Denecourt-Colinet (Amis de la forêt de Fontainebleau)",
+      "lien": "https://www.aaff.fr/les-sentiers/",
+      "osm": "https://www.openstreetmap.org/relation/269627"
+    },
+    "gpx": "gpx/sentier-denecourt-colinet-12-est.gpx",
+    "notes": [
+      "Fontainebleau : après les incendies de juillet 2026, vérifie la carte interactive de l'ONF avant de partir.",
+      "Chasse : certaines parcelles sont fermées les jours de chasse en automne et en hiver (calendriers ONF).",
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "circuit-de-decouverte-des-points-de-vue",
+    "titre": "Circuit de découverte des points de vue",
+    "zone": "Fontainebleau côté gares (Transilien R)",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 10.0,
+    "dplus_m": 128,
+    "acces": {
+      "texte": "Transilien R Fontainebleau-Avon (200 m)"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": null,
+      "lien": null,
+      "osm": "https://www.openstreetmap.org/relation/3416094"
+    },
+    "gpx": "gpx/circuit-de-decouverte-des-points-de-vue.gpx",
+    "notes": [
+      "Fontainebleau : après les incendies de juillet 2026, vérifie la carte interactive de l'ONF avant de partir.",
+      "Chasse : certaines parcelles sont fermées les jours de chasse en automne et en hiver (calendriers ONF).",
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "sentier-robert-louis-stevenson-bourron-barbizon",
+    "titre": "Sentier Robert Louis Stevenson, Bourron → Barbizon",
+    "zone": "Fontainebleau côté gares (Transilien R)",
+    "type": "Aller simple",
+    "teste": false,
+    "distance_km": 23.8,
+    "dplus_m": 197,
+    "acces": {
+      "texte": "Transilien R Bourron-Marlotte-Grez (≈ 2 km), pas de gare à Barbizon"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": null,
+      "lien": null,
+      "osm": "https://www.openstreetmap.org/relation/2752608"
+    },
+    "gpx": "gpx/sentier-robert-louis-stevenson-bourron-barbizon.gpx",
+    "notes": [
+      "Aller simple, traverse des secteurs à vérifier.",
+      "Fontainebleau : après les incendies de juillet 2026, vérifie la carte interactive de l'ONF avant de partir.",
+      "Chasse : certaines parcelles sont fermées les jours de chasse en automne et en hiver (calendriers ONF).",
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "la-foret-de-l-isle-adam-ia1",
+    "titre": "La forêt de L'Isle-Adam (IA1)",
+    "zone": "Forêt de L'Isle-Adam",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 19.1,
+    "dplus_m": 228,
+    "acces": {
+      "texte": "Transilien H Valmondois (1 km du tracé)"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": null,
+      "lien": null,
+      "osm": "https://www.openstreetmap.org/relation/18267496"
+    },
+    "gpx": "gpx/la-foret-de-l-isle-adam-ia1.gpx",
+    "notes": [
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "paysages-pittoresques-des-vaux-de-cernay",
+    "titre": "Paysages pittoresques des Vaux de Cernay",
+    "zone": "Haute vallée de Chevreuse",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 8.3,
+    "dplus_m": 159,
+    "acces": {
+      "voiture": true,
+      "texte": "Voiture ; Transilien N Les Essarts-le-Roi à ≈ 4 km"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "Parc naturel régional de la Haute Vallée de Chevreuse",
+      "lien": "https://rando.pnr-idf.fr/trek/48712-Paysages-pittoresques-des-vaux-de-Cernay",
+      "osm": "https://www.openstreetmap.org/relation/21239653"
+    },
+    "gpx": "gpx/paysages-pittoresques-des-vaux-de-cernay.gpx",
+    "notes": [
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "foret-et-villages-hors-du-temps",
+    "titre": "Forêt et Villages hors du temps",
+    "zone": "Haute vallée de Chevreuse",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 13.4,
+    "dplus_m": 162,
+    "acces": {
+      "voiture": true,
+      "texte": ""
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "Parc naturel régional de la Haute Vallée de Chevreuse",
+      "lien": "https://rando.pnr-idf.fr/trek/28568-Foret-et-villages-hors-du-temps",
+      "osm": "https://www.openstreetmap.org/relation/21243148"
+    },
+    "gpx": "gpx/foret-et-villages-hors-du-temps.gpx",
+    "notes": [
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "jean-racine-cote-abbaye-de-port-royal",
+    "titre": "Jean Racine côté Abbaye de Port-Royal",
+    "zone": "Haute vallée de Chevreuse",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 10.5,
+    "dplus_m": 127,
+    "acces": {
+      "voiture": true,
+      "texte": "Voiture ; RER B Saint-Rémy-lès-Chevreuse à ≈ 4,5 km"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "Parc naturel régional de la Haute Vallée de Chevreuse",
+      "lien": "https://rando.pnr-idf.fr/trek/52422-Jean-Racine-cote-Abbaye-de-Port-Royal",
+      "osm": "https://www.openstreetmap.org/relation/14965125"
+    },
+    "gpx": "gpx/jean-racine-cote-abbaye-de-port-royal.gpx",
+    "notes": [
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "circuit-de-sonchamp",
+    "titre": "Circuit de Sonchamp",
+    "zone": "Forêt de Rambouillet",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 16.3,
+    "dplus_m": 114,
+    "acces": {
+      "voiture": true,
+      "texte": ""
+    },
+    "origine": {
+      "type": "balisage",
+      "source": null,
+      "lien": null,
+      "osm": "https://www.openstreetmap.org/relation/2784884"
+    },
+    "gpx": "gpx/circuit-de-sonchamp.gpx",
+    "notes": [
+      "Chasse : certaines parcelles sont fermées les jours de chasse en automne et en hiver (calendriers ONF).",
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "circuit-des-25-bosses",
+    "titre": "Circuit des 25 bosses",
+    "zone": "Trois Pignons et sud de Fontainebleau",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 15.0,
+    "dplus_m": 811,
+    "acces": {
+      "voiture": true,
+      "texte": ""
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "Association des Amis de la forêt de Fontainebleau",
+      "lien": "https://www.aaff.fr/les-sentiers/#le-circuit-des-25-bosses/",
+      "osm": "https://www.openstreetmap.org/relation/1845782"
+    },
+    "gpx": "gpx/circuit-des-25-bosses.gpx",
+    "notes": [
+      "Fontainebleau : après les incendies de juillet 2026, vérifie la carte interactive de l'ONF avant de partir.",
+      "Chasse : certaines parcelles sont fermées les jours de chasse en automne et en hiver (calendriers ONF).",
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ],
+    "alerte": "Secteur fermé depuis les incendies de juillet 2026"
+  },
+  {
+    "id": "sentier-denecourt-colinet-16",
+    "titre": "Sentier Denecourt-Colinet 16",
+    "zone": "Trois Pignons et sud de Fontainebleau",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 8.1,
+    "dplus_m": 235,
+    "acces": {
+      "voiture": true,
+      "texte": ""
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "sentiers bleus Denecourt-Colinet (Amis de la forêt de Fontainebleau)",
+      "lien": "https://www.aaff.fr/les-sentiers/",
+      "osm": "https://www.openstreetmap.org/relation/394286"
+    },
+    "gpx": "gpx/sentier-denecourt-colinet-16.gpx",
+    "notes": [
+      "Fontainebleau : après les incendies de juillet 2026, vérifie la carte interactive de l'ONF avant de partir.",
+      "Chasse : certaines parcelles sont fermées les jours de chasse en automne et en hiver (calendriers ONF).",
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ],
+    "alerte": "Secteur fermé depuis les incendies de juillet 2026"
+  },
+  {
+    "id": "larchant",
+    "titre": "Larchant",
+    "zone": "Trois Pignons et sud de Fontainebleau",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 9.4,
+    "dplus_m": 143,
+    "acces": {
+      "voiture": true,
+      "texte": "Voiture ; Transilien R Bourron-Marlotte à ≈ 7 km"
+    },
+    "origine": {
+      "type": "balisage",
+      "source": null,
+      "lien": null,
+      "osm": "https://www.openstreetmap.org/relation/14983419"
+    },
+    "gpx": "gpx/larchant.gpx",
+    "notes": [
+      "Commanderie partiellement fermée l'été 2026 : vérifier.",
+      "Fontainebleau : après les incendies de juillet 2026, vérifie la carte interactive de l'ONF avant de partir.",
+      "Chasse : certaines parcelles sont fermées les jours de chasse en automne et en hiver (calendriers ONF).",
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "la-vallee-de-boissy-aux-cailles",
+    "titre": "La vallée de Boissy-aux-Cailles",
+    "zone": "Trois Pignons et sud de Fontainebleau",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 16.4,
+    "dplus_m": 172,
+    "acces": {
+      "voiture": true,
+      "texte": ""
+    },
+    "origine": {
+      "type": "balisage",
+      "source": null,
+      "lien": null,
+      "osm": "https://www.openstreetmap.org/relation/14215979"
+    },
+    "gpx": "gpx/la-vallee-de-boissy-aux-cailles.gpx",
+    "notes": [
+      "Fontainebleau : après les incendies de juillet 2026, vérifie la carte interactive de l'ONF avant de partir.",
+      "Chasse : certaines parcelles sont fermées les jours de chasse en automne et en hiver (calendriers ONF).",
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "la-grande-boucle-d-acheres",
+    "titre": "La grande boucle d'Achères",
+    "zone": "Trois Pignons et sud de Fontainebleau",
+    "type": "Boucle",
+    "teste": false,
+    "distance_km": 13.3,
+    "dplus_m": 108,
+    "acces": {
+      "voiture": true,
+      "texte": ""
+    },
+    "origine": {
+      "type": "balisage",
+      "source": null,
+      "lien": null,
+      "osm": "https://www.openstreetmap.org/relation/3258553"
+    },
+    "gpx": "gpx/la-grande-boucle-d-acheres.gpx",
+    "notes": [
+      "Voisine des Trois Pignons : vérifier.",
+      "Fontainebleau : après les incendies de juillet 2026, vérifie la carte interactive de l'ONF avant de partir.",
+      "Chasse : certaines parcelles sont fermées les jours de chasse en automne et en hiver (calendriers ONF).",
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "grp-ceinture-verte-etape-19-en-aller-retour-depuis-saint-nom-la-bretec",
+    "titre": "GRP Ceinture Verte, étape 19 en aller-retour depuis Saint-Nom-la-Bretèche",
+    "zone": "Forêt de Marly",
+    "type": "Aller-retour depuis la gare",
+    "teste": false,
+    "distance_km": 22.0,
+    "dplus_m": 575,
+    "acces": {
+      "depart": {
+        "gare": "Saint-Nom-la-Bretèche",
+        "ligne": "Transilien L",
+        "paris": "depuis Paris Saint-Lazare",
+        "distance": "100 m"
+      }
+    },
+    "origine": {
+      "type": "balisage",
+      "source": "GR de Pays Ceinture verte d'Île-de-France (balisage FFRandonnée)",
+      "lien": null,
+      "osm": "https://www.openstreetmap.org/relation/17381586"
+    },
+    "gpx": "gpx/grp-ceinture-verte-etape-19-en-aller-retour-depuis-saint-nom-la-bretec.gpx",
+    "notes": [
+      "Version longue de l'étape 19 : on part et on revient à la gare de Saint-Nom-la-Bretèche.",
+      "Distance et dénivelé calculés sur le tracé (altimétrie IGN) : ta montre peut donner 5 à 15 % d'écart."
+    ]
+  },
+  {
+    "id": "trail-de-beaumont-31-km",
+    "titre": "Trail de Beaumont, 31 km",
+    "zone": "Forêt de Carnelle (Val-d'Oise)",
+    "type": "Tracé de course",
+    "teste": false,
+    "distance_km": 31.0,
+    "dplus_m": 769,
+    "acces": {
+      "depart": {
+        "gare": "Nointel-Mours",
+        "ligne": "Transilien H",
+        "distance": "830 m"
+      }
+    },
+    "origine": {
+      "type": "course",
+      "course": "Trail de Beaumont",
+      "organisation": "l'association Beaumont Triathlon, avec la mairie de Beaumont-sur-Oise",
+      "lien": "https://www.traildebeaumont.fr/",
+      "detail": "Tracé de l'édition du 10 janvier 2027. D+ recalculé sur l'altimétrie IGN (600 m annoncés)."
+    },
+    "gpx": "gpx/trail-de-beaumont-31-km.gpx",
+    "notes": [
+      "Gare la plus proche : Nointel-Mours (Transilien H), à 830 m du départ.",
+      "Hors jour de course, le balisage n'est plus en place : suis le GPX et respecte les propriétés privées."
+    ]
+  },
+  {
+    "id": "trail-de-beaumont-15-km",
+    "titre": "Trail de Beaumont, 15 km",
+    "zone": "Forêt de Carnelle (Val-d'Oise)",
+    "type": "Tracé de course",
+    "teste": false,
+    "distance_km": 15.9,
+    "dplus_m": 307,
+    "acces": {
+      "depart": {
+        "gare": "Nointel-Mours",
+        "ligne": "Transilien H",
+        "distance": "815 m"
+      }
+    },
+    "origine": {
+      "type": "course",
+      "course": "Trail de Beaumont",
+      "organisation": "l'association Beaumont Triathlon, avec la mairie de Beaumont-sur-Oise",
+      "lien": "https://www.traildebeaumont.fr/",
+      "detail": "Tracé de l'édition du 10 janvier 2027. D+ recalculé sur l'altimétrie IGN."
+    },
+    "gpx": "gpx/trail-de-beaumont-15-km.gpx",
+    "notes": [
+      "Gare la plus proche : Nointel-Mours (Transilien H), à 815 m du départ.",
+      "Hors jour de course, le balisage n'est plus en place : suis le GPX et respecte les propriétés privées."
+    ]
+  },
+  {
+    "id": "trail-bleu-25-km-la-sanglier",
+    "titre": "Trail Bleu, 25 km « La Sanglier »",
+    "zone": "Forêt de Marly",
+    "type": "Tracé de course",
+    "teste": false,
+    "distance_km": 24.5,
+    "dplus_m": 483,
+    "acces": {
+      "depart": {
+        "gare": "L'Étang-la-Ville",
+        "ligne": "Transilien L",
+        "distance": "530 m"
+      }
+    },
+    "origine": {
+      "type": "course",
+      "course": "Trail Bleu",
+      "organisation": "les organisateurs du Trail Bleu, au profit de la Ligue contre le cancer",
+      "lien": "https://sport.ikinoa.com/fr/evt/trail-bleu",
+      "detail": "Tracé de l'édition des 13 et 14 mars 2027. D+ recalculé sur l'altimétrie IGN (550 m annoncés)."
+    },
+    "gpx": "gpx/trail-bleu-25-km-la-sanglier.gpx",
+    "notes": [
+      "Gare la plus proche : L'Étang-la-Ville (Transilien L), à 530 m du départ.",
+      "Hors jour de course, le balisage n'est plus en place : suis le GPX et respecte les propriétés privées."
+    ]
+  },
+  {
+    "id": "trail-bleu-15-km-la-chevreuil",
+    "titre": "Trail Bleu, 15 km « La Chevreuil »",
+    "zone": "Forêt de Marly",
+    "type": "Tracé de course",
+    "teste": false,
+    "distance_km": 15.1,
+    "dplus_m": 352,
+    "acces": {
+      "depart": {
+        "gare": "L'Étang-la-Ville",
+        "ligne": "Transilien L",
+        "distance": "530 m"
+      }
+    },
+    "origine": {
+      "type": "course",
+      "course": "Trail Bleu",
+      "organisation": "les organisateurs du Trail Bleu, au profit de la Ligue contre le cancer",
+      "lien": "https://sport.ikinoa.com/fr/evt/trail-bleu",
+      "detail": "Tracé de l'édition des 13 et 14 mars 2027. D+ recalculé sur l'altimétrie IGN (440 m annoncés)."
+    },
+    "gpx": "gpx/trail-bleu-15-km-la-chevreuil.gpx",
+    "notes": [
+      "Gare la plus proche : L'Étang-la-Ville (Transilien L), à 530 m du départ.",
+      "Hors jour de course, le balisage n'est plus en place : suis le GPX et respecte les propriétés privées."
+    ]
+  },
+  {
+    "id": "rev7-trail-20-km",
+    "titre": "Rev7 Trail, 20 km",
+    "zone": "Vexin : Menucourt et Vaux-sur-Seine",
+    "type": "Tracé de course",
+    "teste": false,
+    "distance_km": 19.6,
+    "dplus_m": 384,
+    "acces": {
+      "depart": {
+        "gare": "Vaux-sur-Seine",
+        "ligne": "Transilien J",
+        "distance": "2,3 km"
+      }
+    },
+    "origine": {
+      "type": "course",
+      "course": "Rev7 Trail",
+      "organisation": "l'organisation du Rev7 Trail (Menucourt)",
+      "lien": "https://rev7-menucourt.fr/",
+      "detail": "Tracé de l'édition du 21 mars 2027. D+ recalculé sur l'altimétrie IGN (450 m annoncés)."
+    },
+    "gpx": "gpx/rev7-trail-20-km.gpx",
+    "notes": [
+      "Gare la plus proche : Vaux-sur-Seine (Transilien J), à 2,3 km du départ.",
+      "Hors jour de course, le balisage n'est plus en place : suis le GPX et respecte les propriétés privées."
+    ]
+  },
+  {
+    "id": "rev7-trail-13-km",
+    "titre": "Rev7 Trail, 13 km",
+    "zone": "Vexin : Menucourt et Vaux-sur-Seine",
+    "type": "Tracé de course",
+    "teste": false,
+    "distance_km": 13.0,
+    "dplus_m": 248,
+    "acces": {
+      "depart": {
+        "gare": "Vaux-sur-Seine",
+        "ligne": "Transilien J",
+        "distance": "2,3 km"
+      }
+    },
+    "origine": {
+      "type": "course",
+      "course": "Rev7 Trail",
+      "organisation": "l'organisation du Rev7 Trail (Menucourt)",
+      "lien": "https://rev7-menucourt.fr/",
+      "detail": "Tracé de l'édition du 21 mars 2027. D+ recalculé sur l'altimétrie IGN."
+    },
+    "gpx": "gpx/rev7-trail-13-km.gpx",
+    "notes": [
+      "Gare la plus proche : Vaux-sur-Seine (Transilien J), à 2,3 km du départ.",
+      "Hors jour de course, le balisage n'est plus en place : suis le GPX et respecte les propriétés privées."
+    ]
+  },
+  {
+    "id": "maxicross-de-bouffemont-42-km",
+    "titre": "Maxicross de Bouffémont, 42 km",
+    "zone": "Forêt de Montmorency",
+    "type": "Tracé de course",
+    "teste": false,
+    "distance_km": 43.5,
+    "dplus_m": 1718,
+    "acces": {
+      "depart": {
+        "gare": "Bouffémont-Moisselles",
+        "ligne": "Transilien H"
+      }
+    },
+    "origine": {
+      "type": "course",
+      "course": "Maxicross de Bouffémont",
+      "organisation": "l'organisation du Maxicross",
+      "lien": "https://maxicross-bouffemont.adeorun.com",
+      "detail": "Parcours 2025 ; édition 2027 les 30 et 31 janvier (42,5 km annoncés). GPX partagé sur Trace de Trail (horaires retirés). D+ affiché par Trace de Trail (1 400 m annoncés)."
+    },
+    "gpx": "gpx/maxicross-de-bouffemont-42-km.gpx",
+    "notes": [
+      "Gare la plus proche : Bouffémont-Moisselles (Transilien H), distance au départ à vérifier.",
+      "Hors jour de course, le balisage n'est plus en place : suis le GPX et respecte les propriétés privées."
+    ]
+  },
+  {
+    "id": "maxicross-de-bouffemont-30-km",
+    "titre": "Maxicross de Bouffémont, 30 km",
+    "zone": "Forêt de Montmorency",
+    "type": "Tracé de course",
+    "teste": false,
+    "distance_km": 31.3,
+    "dplus_m": 1285,
+    "acces": {
+      "depart": {
+        "gare": "Bouffémont-Moisselles",
+        "ligne": "Transilien H"
+      }
+    },
+    "origine": {
+      "type": "course",
+      "course": "Maxicross de Bouffémont",
+      "organisation": "l'organisation du Maxicross",
+      "lien": "https://maxicross-bouffemont.adeorun.com",
+      "detail": "Parcours 2025 ; édition 2027 les 30 et 31 janvier. GPX partagé sur Trace de Trail (horaires retirés). D+ affiché par Trace de Trail."
+    },
+    "gpx": "gpx/maxicross-de-bouffemont-30-km.gpx",
+    "notes": [
+      "Gare la plus proche : Bouffémont-Moisselles (Transilien H), distance au départ à vérifier.",
+      "Hors jour de course, le balisage n'est plus en place : suis le GPX et respecte les propriétés privées."
+    ]
+  },
+  {
+    "id": "trail-des-chataignes-36-km-les-chataignes",
+    "titre": "Trail des Châtaignes, 36 km « Les Châtaignes »",
+    "zone": "Buttes du Parisis (Val-d'Oise)",
+    "type": "Tracé de course",
+    "teste": false,
+    "distance_km": 36.1,
+    "dplus_m": 1153,
+    "acces": {
+      "depart": {
+        "gare": "Cormeilles-en-Parisis",
+        "ligne": "Transilien J",
+        "distance": "≈ 1,5 km"
+      }
+    },
+    "origine": {
+      "type": "course",
+      "course": "Trail des Châtaignes",
+      "organisation": "l'association Objectif'Sports Nature",
+      "lien": "https://trail-des-chataignes.com/",
+      "detail": "Parcours 2025, départ et arrivée au Fort de Cormeilles. GPX partagé sur Trace de Trail (horaires retirés). D+ affiché par Trace de Trail."
+    },
+    "gpx": "gpx/trail-des-chataignes-36-km-les-chataignes.gpx",
+    "notes": [
+      "Gare la plus proche : Cormeilles-en-Parisis (Transilien J), à ≈ 1,5 km du départ.",
+      "Hors jour de course, le balisage n'est plus en place : suis le GPX et respecte les propriétés privées."
+    ]
+  },
+  {
+    "id": "trail-du-josas-35-km",
+    "titre": "Trail du Josas, 35 km",
+    "zone": "Bois de Versailles : Jouy-en-Josas et Buc",
+    "type": "Tracé de course",
+    "teste": false,
+    "distance_km": 35.1,
+    "dplus_m": 1130,
+    "acces": {
+      "depart": {
+        "gare": "Jouy-en-Josas",
+        "ligne": "Transilien V"
+      }
+    },
+    "origine": {
+      "type": "course",
+      "course": "Trail du Josas",
+      "organisation": "l'organisation du Trail du Josas",
+      "lien": "https://www.traildujosas.com",
+      "detail": "Parcours 2024, départ et arrivée à Jouy-en-Josas. GPX partagé sur Trace de Trail (horaires retirés). Altitudes du GPX inutilisables, donc retirées ; D+ affiché par Trace de Trail."
+    },
+    "gpx": "gpx/trail-du-josas-35-km.gpx",
+    "notes": [
+      "Gare la plus proche : Jouy-en-Josas (Transilien V), distance au départ à vérifier.",
+      "Hors jour de course, le balisage n'est plus en place : suis le GPX et respecte les propriétés privées."
     ]
   }
 ]

@@ -32,8 +32,10 @@ function originHtml(r, compact = false) {
   }
   if (o.type === "balisage") {
     const src = o.source ? `Itinéraire balisé : ${link(o.source, o.lien)}.` : "Itinéraire balisé.";
-    const osm = o.osm ? ` Tracé issu d'${link("OpenStreetMap", o.osm)} (© contributeurs OSM, ODbL).` : "";
-    return `<div class="credit">${src}${compact ? "" : osm}</div>`;
+    const osm = o.osm
+      ? (compact ? " Tracé OpenStreetMap." : ` Tracé issu d'${link("OpenStreetMap", o.osm)} (© contributeurs OSM, ODbL).`)
+      : "";
+    return `<div class="credit">${src}${osm}</div>`;
   }
   return `<span class="tag">Itinéraire personnel</span>`;
 }
@@ -86,8 +88,11 @@ async function renderIndex() {
       if (!zones.has(z)) zones.set(z, []);
       zones.get(z).push(r);
     });
+    // zones avec un parcours testé d'abord, puis accès en train, puis zones en voiture
+    const carOnly = (rs) => rs.every((r) => r.acces?.voiture);
     const order = [...zones.entries()].sort((a, b) =>
-      b[1].filter((r) => r.teste).length - a[1].filter((r) => r.teste).length || a[0].localeCompare(b[0], "fr"));
+      b[1].filter((r) => r.teste).length - a[1].filter((r) => r.teste).length ||
+      carOnly(a[1]) - carOnly(b[1]) || a[0].localeCompare(b[0], "fr"));
     el.innerHTML = order
       .map(([z, rs]) => `<section class="zone"><h3 class="zone-title">${esc(z)} <span class="meta">${rs.length}</span></h3>
         <div class="list-inner">${rs
