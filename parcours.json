@@ -1,0 +1,24 @@
+[
+  {
+    "id": "la-frette-montigny-sannois-chataignes",
+    "titre": "Sur le tracé du Trail des Châtaignes : de La Frette–Montigny à Sannois",
+    "resume": "Montée depuis la Seine vers les Buttes du Parisis, sentiers en forêt et allées en sous-bois, vue sur Paris, puis descente vers Sannois. Le cœur du parcours suit le tracé de course du Trail des Châtaignes, relié à pied aux deux gares.",
+    "depart": { "gare": "La Frette–Montigny", "ligne": "Transilien J", "paris": "Paris Saint-Lazare" },
+    "arrivee": { "gare": "Sannois", "ligne": "Transilien J", "paris": "Paris Saint-Lazare" },
+    "distance_km": 20.7,
+    "dplus_m": 610,
+    "teste_le": "2026-11-11",
+    "origine": {
+      "type": "course",
+      "course": "Trail des Châtaignes",
+      "organisation": "l'association Objectif'Sports Nature",
+      "lien": "https://trail-des-chataignes.com/",
+      "detail": "Portion du parcours « Les Châtaignes », du km 3 au km 21, avec des liaisons à pied par les rues depuis la gare de La Frette–Montigny et jusqu'à la gare de Sannois."
+    },
+    "gpx": "gpx/2026-11-11_la-frette-montigny_sannois_chataignes.gpx",
+    "notes": [
+      "Testé le 11 novembre 2026 sur les 16 premiers kilomètres tels quels. Sur la fin, j'ai rejoint Sannois par un chemin plus direct : les 4 derniers kilomètres suivent le tracé de course jusqu'au km 21, puis les rues jusqu'à la gare.",
+      "Dénivelé mesuré à la montre le jour du test (Strava). L'altitude n'est pas renseignée sur la portion non courue."
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Traces GPX · trail au départ des gares</title>
+  <meta name="description" content="Parcours trail réellement courus, au départ et à l'arrivée d'une gare, accessibles en train depuis Paris. Traces GPX à télécharger.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <div class="kicker">Amaury Dreux · prépa Diagonale des Fous 2027</div>
+      <h1>Traces GPX</h1>
+      <p class="lead">Les parcours trail que j'ai vraiment courus, au départ et à l'arrivée d'une gare. Tu prends le train depuis Paris, tu cours, tu rentres en train.</p>
+      <ul class="rules">
+        <li><b>Testé par moi</b>Chaque trace a été courue, la date est indiquée.</li>
+        <li><b>De gare à gare</b>Départ et arrivée dans une gare desservie depuis Paris.</li>
+        <li><b>Les tracés de course sont crédités</b>Quand un parcours reprend celui d'une course, l'organisation est citée.</li>
+      </ul>
+      <p class="meta" id="count"></p>
+    </header>
+
+    <main id="list" class="list" aria-live="polite"></main>
+
+    <footer class="site">
+      Traces données à titre indicatif : vérifie l'état des chemins, les accès et les périodes de chasse avant de partir, et respecte les propriétés privées.
+      Les distances et dénivelés viennent de la montre (Strava).
+    </footer>
+  </div>
+  <script src="assets/app.js"></script>
+  <script>renderIndex();</script>
+</body>
+</html>
